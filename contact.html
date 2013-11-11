@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>Johnny 5 - Contact Us</title>
+
+  <link rel="shortcut icon" href="images/favicon.png"> 
+  <link rel="apple-itouch-icon" href="images/favicon.png">
+
+  <script src="js/jquery.1.10.2.js"></script>
+
+    <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles/reset.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="styles/main.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="styles/print.css" type="text/css" media="print" >
+
+  <script>
+
+    $(document).ready(function(){
+      $(".menubutton").click(function(){
+        $("nav").slideToggle(500);
+      });
+    });
+
+  </script>
+
+</head>
+<body>
+	<div id="container">
+		<header id="topHeader">
+			<div class="logo">
+				<a href="index.html">
+					<img src="images/logos/johnny5.svg" alt="logo">
+				</a>
+			</div>
+				<div class="menubutton">
+        		<svg version="1.1" id="Your_Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="21.5px" height="21.5px" viewBox="0 78.5 21.5 21.5" enable-background="new 0 78.5 21.5 21.5" xml:space="preserve">
+					<path d="M0,100"/>
+					<rect class="menu_button" x="0" y="78.874" fill="#2c3e50" width="20.971" height="4.661"/>
+					<rect class="menu_button" x="0" y="87.508" fill="#2c3e50" width="20.971" height="4.663"/>
+					<rect class="menu_button" x="0" y="96.147" fill="#2c3e50" width="20.971" height="4.663"/>
+				</svg>
+      		</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="menu.html">Menu</a></li>
+					<li><a class="current" href="contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section id="contact_content">
+			<article>
+				<h1>Contact Us</h1>
+				<h2>Adress</h2>
+				<p>
+					45 amber street<br/>
+					Toronto, Ontario<br/>
+					M3C 4O9
+				</p>
+				<h2>Phone</h2>
+				<p>416-555-5555</p>
+				<h2>E-mail</h2>
+				<p><a href="#">contact@johny5.ca</a></p>
+				<form>
+					<div>
+						<label>
+							<p>Name</p>
+							<input id="name" type="textarea">
+						</label>
+					</div>
+					<div>
+						<label>
+							<p>Email</p>
+							<input id="email" type="textarea">
+						</label>
+					</div>
+					<div>
+						<label>
+							<p class="comment">Comment</p>
+							<TEXTAREA></TEXTAREA>
+						</label>
+					</div>
+					<button type="submit">
+						Submit
+					</button>
+				</form>
+			</article>
+		</section>
+		<footer id="footer">
+			<p> Copyright &copy; James McGaghey 2013</p>
+		</footer>
+	</div>
+</body>
+</html>

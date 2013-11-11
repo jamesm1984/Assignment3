@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>Johnny 5</title>
+
+  <link rel="shortcut icon" href="images/favicon.png"> 
+  <link rel="apple-itouch-icon" href="images/favicon.png">
+
+  <script src="js/jquery.1.10.2.js"></script>
+
+    <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles/reset.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="styles/main.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="styles/print.css" type="text/css" media="print" >
+
+  <script>
+
+    $(document).ready(function(){
+      $(".menubutton").click(function(){
+        $("nav").slideToggle(500);
+      });
+    });
+
+  </script>
+
+</head>
+<body>
+	<div id="container">
+		<header id="topHeader">
+			<div class="logo">
+				<a href="index.html">
+					<img src="images/logos/johnny5.svg" alt="logo">
+				</a>
+			</div>
+			<div class="menubutton">
+        		<svg version="1.1" id="Your_Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="21.5px" height="21.5px" viewBox="0 78.5 21.5 21.5" enable-background="new 0 78.5 21.5 21.5" xml:space="preserve">
+					<path d="M0,100"/>
+					<rect class="menu_button" x="0" y="78.874" fill="#2c3e50" width="20.971" height="4.661"/>
+					<rect class="menu_button" x="0" y="87.508" fill="#2c3e50" width="20.971" height="4.663"/>
+					<rect class="menu_button" x="0" y="96.147" fill="#2c3e50" width="20.971" height="4.663"/>
+				</svg>
+      		</div>
+			<nav>
+				<ul>
+					<li><a class="current" href="index.html">Home</a></li>
+					<li><a href="menu.html">Menu</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section id="content">
+			<article>
+				<h1>About Us</h1>
+				<p>
+					We are a local resturant in Toronto, Ontario Canada serving regionally grown meats and produce for all our burgers, hotdogs, chili, cheese, fries and onion rings.
+				</p>
+				<p>
+					We pride ourselves on our freshly made products that are made daily, from the hamburgers to the buns we make it in house.
+				</p>
+			</article>
+			<aside>
+				<div class="asideContent">
+					<h1>Get our food</h1>
+					<h2 class="delivery">Delivery</h2>
+					<p>416-555-5555</p>
+					<h2 class="takeout">Take-Out</h2>
+					<img src="" alt="map">
+					<p>45 amber street</p>
+					<p>Toronto, Ontario</p>
+					<p>M3C 4O9</p>
+				</div>
+			</aside>
+		</section>
+		<footer id="footer">
+			<p> Copyright &copy; James McGaghey 2013</p>
+		</footer>
+	</div>
+</body>
+</html>

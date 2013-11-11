@@ -1,0 +1,30 @@
+a {
+  text-decoration: none;
+}
+p {
+  font-size: 1em;
+  margin-bottom: 1.3em;
+  line-height: 1.3em;
+  font-family: 'Gudea', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Stint Ultra Extended', 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 2.0em;
+}
+h2 {
+  font-size: 1.6em;
+}
+h3 {
+  font-size: 1.3em;
+}
+h4 {
+  font-size: 1.0em;
+}

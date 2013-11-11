@@ -1,0 +1,508 @@
+a {
+  text-decoration: none;
+}
+p {
+  font-size: 1em;
+  margin-bottom: 1.3em;
+  line-height: 1.3em;
+  font-family: 'Gudea', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Stint Ultra Extended', 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 2.0em;
+}
+h2 {
+  font-size: 1.6em;
+}
+h3 {
+  font-size: 1.3em;
+}
+h4 {
+  font-size: 1.0em;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background-color: #2c3e50;
+  font-family: 'Gudea', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  color: #fff;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+header#topHeader {
+  width: 100%;
+  height: 100px;
+  background-color: #3498db;
+  border-bottom: 3px solid #2c3e50;
+  overflow: hidden;
+}
+header#topHeader .logo {
+  float: left;
+  width: 10%;
+  height: 100px;
+  text-align: center;
+}
+header#topHeader .logo img {
+  height: 100%;
+  padding: 5px;
+}
+header#topHeader .menubutton {
+  width: 100%;
+  height: 55px;
+  text-align: center;
+  border-top: 1px solid #2c3e50;
+  padding: 15px 0;
+  cursor: pointer;
+  display: none;
+}
+header#topHeader nav {
+  float: left;
+  width: 90%;
+  display: block;
+}
+header#topHeader nav ul {
+  height: 165px;
+  cursor: default;
+}
+header#topHeader nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+header#topHeader nav ul li a {
+  color: #f1c40f;
+}
+header#topHeader nav ul li a:hover {
+  color: #796307;
+}
+header#topHeader nav ul li .current {
+  color: #2c3e50;
+}
+section#content,
+section#menu_content {
+  height: 600px;
+  background: #ecf0f1;
+  cursor: default;
+}
+section#content article,
+section#menu_content article {
+  color: #2c3e50;
+  padding: 5px;
+  float: left;
+  width: 65%;
+  height: 100%;
+  background: #ecf0f1;
+}
+section#content article h2,
+section#menu_content article h2 {
+  width: 100%;
+  background: #f1c40f;
+}
+section#content article p,
+section#menu_content article p {
+  margin: 15px;
+}
+section#content aside,
+section#menu_content aside {
+  background: #3498db;
+  color: #f1c40f;
+  float: left;
+  width: 35%;
+  height: 100%;
+  padding: 5px;
+}
+section#content aside .asideContent,
+section#menu_content aside .asideContent {
+  margin: 15px auto;
+  text-align: center;
+  background: #2c3e50;
+  width: 95%;
+  height: 95%;
+  border: 1px solid #3498db;
+  border-radius: 10px;
+}
+section#content aside .asideContent h2,
+section#menu_content aside .asideContent h2 {
+  text-decoration: underline;
+}
+section#content aside .asideContent .delivery,
+section#menu_content aside .asideContent .delivery {
+  margin-top: 40px;
+}
+section#content aside .asideContent .takeout,
+section#menu_content aside .asideContent .takeout {
+  margin-top: 60px;
+}
+section#menu_content article {
+  height: auto;
+}
+section#menu_content article .combos {
+  background-color: #3498db;
+  width: 100%;
+  padding: 0;
+  margin: 0 0 40px 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+section#menu_content article .combos h2 {
+  padding-left: 5px;
+  margin: 0;
+}
+section#menu_content article .combos li {
+  float: left;
+  padding: 0;
+  margin: .5em;
+  list-style: none;
+}
+section#menu_content article .combos li .item {
+  width: 100%;
+  height: 170px;
+  margin: 10px;
+  padding: 0;
+  background: red;
+  overflow: hidden;
+  border-radius: 5px;
+}
+section#menu_content article .combos li .item header {
+  width: 100%;
+  height: 25px;
+  margin: 0;
+  background: white;
+  text-align: center;
+}
+section#menu_content article .combos li .item header h2 {
+  width: 100%;
+  margin: 0;
+  background: white;
+  font-size: 1em;
+  padding: 5px 0 0 0;
+}
+section#menu_content article .combos li .item .menu_content {
+  width: 100%;
+  height: 120px;
+  background: #2c3e50;
+  text-align: center;
+}
+section#menu_content article .combos li .item .menu_content img {
+  width: 100%;
+  height: 50px;
+  margin-top: 5px;
+}
+section#menu_content article .combos li .item .menu_content p {
+  margin: 5px 0;
+  color: #ecf0f1;
+  font-size: .7em;
+}
+section#menu_content article .combos li .item footer {
+  width: 100%;
+  height: 25px;
+  margin: 0;
+  background: white;
+  text-align: right;
+}
+section#menu_content article .combos li .item footer p {
+  width: 100%;
+  margin: 0;
+  background: white;
+  padding-right: 5px;
+}
+section#menu_content article .combos li {
+  width: 22%;
+}
+section#menu_content article .sides {
+  background-color: #3498db;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+section#menu_content article .sides h2 {
+  padding-left: 5px;
+  margin: 0;
+}
+section#menu_content article .sides li {
+  float: left;
+  padding: 0;
+  margin: .5em;
+  list-style: none;
+}
+section#menu_content article .sides li .item {
+  width: 100%;
+  height: 170px;
+  margin: 10px;
+  padding: 0;
+  background: red;
+  overflow: hidden;
+  border-radius: 5px;
+}
+section#menu_content article .sides li .item header {
+  width: 100%;
+  height: 25px;
+  margin: 0;
+  background: white;
+  text-align: center;
+}
+section#menu_content article .sides li .item header h2 {
+  width: 100%;
+  margin: 0;
+  background: white;
+  font-size: 1em;
+  padding: 5px 0 0 0;
+}
+section#menu_content article .sides li .item .menu_content {
+  width: 100%;
+  height: 120px;
+  background: #2c3e50;
+  text-align: center;
+}
+section#menu_content article .sides li .item .menu_content img {
+  width: 100%;
+  height: 50px;
+  margin-top: 5px;
+}
+section#menu_content article .sides li .item .menu_content p {
+  margin: 5px 0;
+  color: #ecf0f1;
+  font-size: .7em;
+}
+section#menu_content article .sides li .item footer {
+  width: 100%;
+  height: 25px;
+  margin: 0;
+  background: white;
+  text-align: right;
+}
+section#menu_content article .sides li .item footer p {
+  width: 100%;
+  margin: 0;
+  background: white;
+  padding-right: 5px;
+}
+section#menu_content article .sides li {
+  width: 30%;
+}
+section#contact_content {
+  width: 100%;
+  min-height: 600px;
+  height: auto;
+  background: #ecf0f1;
+  cursor: default;
+}
+section#contact_content article {
+  color: #2c3e50;
+  padding: 5px;
+  width: 100%;
+  height: auto;
+}
+section#contact_content article h2 {
+  width: 310px;
+  display: block;
+  margin: 0 auto;
+}
+section#contact_content article p {
+  width: 310px;
+  display: block;
+  margin: 5px auto;
+  padding-left: 25px;
+}
+section#contact_content article p a {
+  color: #796307;
+}
+section#contact_content article p a:hover {
+  color: #2c3e50;
+}
+section#contact_content form {
+  width: 290px;
+  /*height: 140px;*/
+
+  padding: 5px;
+  margin: 10px auto 0;
+  background: #2c3e50;
+  border-radius: 5px;
+}
+section#contact_content form label {
+  float: left;
+  width: 100%;
+  margin: 5px 0;
+  padding: 0;
+  color: #ecf0f1;
+}
+section#contact_content form label p {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Stint Ultra Extended', 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
+}
+section#contact_content form label .comment {
+  padding: 20px 0;
+}
+section#contact_content form label input {
+  width: 50%;
+  float: right;
+  border-radius: 5px;
+  border: 2px solid #796307;
+  color: #2c3e50;
+  font-weight: bold;
+}
+section#contact_content form label textarea {
+  width: 50%;
+  resize: vertical;
+  min-height: 60px;
+  float: right;
+  border-radius: 5px;
+  border: 2px solid #796307;
+  color: #2c3e50;
+  font-weight: bold;
+}
+section#contact_content form button {
+  clear: both;
+  background: #f1c40f;
+  color: #2c3e50;
+  border-color: #3498db;
+  font-size: 0.8em;
+  font-weight: bold;
+  font-family: 'Gudea', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+  margin: 5px 0 5px 207px;
+  border-radius: 5px;
+}
+footer#footer {
+  float: left;
+  width: 100%;
+  height: 30px;
+  background: #f1c40f;
+  border-top: 3px solid #2c3e50;
+  cursor: default;
+}
+footer#footer p {
+  padding-top: 3px;
+  text-align: center;
+  margin: 0;
+  color: #2c3e50;
+}
+@media screen and (min-width: 321px) and (max-width: 1024px) {
+  .container {
+    width: 1024px;
+  }
+  header#topHeader {
+    width: 1010px;
+  }
+  header#topHeader nav {
+    display: block;
+  }
+  section#content,
+  section#menu_content {
+    width: 1010px;
+    height: auto;
+  }
+  section#content article,
+  section#menu_content article {
+    float: none;
+    width: 100%;
+  }
+  section#content aside,
+  section#menu_content aside {
+    float: none;
+    width: 100%;
+  }
+  section#menu_content article .combos li {
+    width: 45%;
+  }
+  section#menu_content article .sides li {
+    width: 29%;
+  }
+  section#contact_content {
+    height: auto;
+    width: 1010px;
+  }
+  footer#footer {
+    width: 1010px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    width: 320px;
+  }
+  header#topHeader {
+    width: 305px;
+    height: auto;
+  }
+  header#topHeader .logo {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+  header#topHeader .logo img {
+    width: 75%;
+  }
+  header#topHeader .menubutton {
+    display: block;
+  }
+  header#topHeader .menubutton:hover .menu_button {
+    fill: white;
+  }
+  header#topHeader nav {
+    width: 100%;
+    display: none;
+    background: #ecf0f1;
+  }
+  header#topHeader nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  header#topHeader nav ul li {
+    display: block;
+    width: 100%;
+    height: 55px;
+    border-top: 1px solid #2c3e50;
+  }
+  header#topHeader nav ul li a {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    display: block;
+  }
+  section#content,
+  section#menu_content {
+    width: 305px;
+    height: auto;
+  }
+  section#content article,
+  section#menu_content article {
+    float: none;
+    width: 100%;
+  }
+  section#content aside,
+  section#menu_content aside {
+    float: none;
+    width: 100%;
+  }
+  section#menu_content article .combos li {
+    width: 87%;
+  }
+  section#menu_content article .sides li {
+    width: 87%;
+  }
+  section#contact_content {
+    width: 305px;
+    height: auto;
+  }
+  footer#footer {
+    width: 305px;
+    font-size: .8em;
+  }
+}
